@@ -2,38 +2,57 @@
 <html>
     <head>
      <style>
-      .container{
-        width: 500px;
-        border-width: 2px;
-        background-color: rgb(90, 90, 90);
-        padding-top: 10px;
-        text-align: left;
-        padding-left: 10px;
-        padding-bottom: 20px;
-      }
-      .txt1{
-       color: white;
-       font-weight: bold;
-       font-family: Arial, Helvetica, sans-serif;
-      }
+     
+     .container{
+       border-radius: 10px;
+       border-width: 1px;
+       border-style: solid;
+       border-color: lightgrey;
+       width: 400px;
+       padding: 10px;
+       box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+     }
 
-        .txt2{
-            color: rgb(164, 158, 158);
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            width: 310px;
+     .pic1{
+       border-radius: 50%;
+       width:   50px;
+       height: 50px;
+       object-fit: cover;
+       object-position: center;
+       vertical-align: middle;
+     }
+        .txt1{
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+        display: inline-block;
+        margin-left: 10px;
+        vertical-align: middle;
+        margin-right: 150px;
+        }
+
+        .btn1{
+            background-color: rgba(0, 157, 255, 0.849);
+            color: white;
+            border-radius: 20px;
+            border: none;
+            padding: 5px 10px;
         }
      </style>
     </head>
     <body>
     <div class="container">
 
-        <p class="txt1">
-            Install Youtube Music
-        </p>
-        <p class ="txt2">
-            Add YouTube Music to your Desktop for quick and easy access
-        </p>
+
+      <img src="pexels-photo-32119894.webp" class="pic1">
+
+      <p class="txt1">
+        What's happening?
+      </p>
+
+      <button class="btn1">
+        Tweet
+      </button>
     </div>
     
     </body>
