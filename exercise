@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            padding: 40px;
+        }
+
+        .container {
+            width: 380px;
+            background-color: white;
+            border-radius: 16px;
+            padding: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .image {
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .info {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        .animal-name,
+        .status {
+            color: #777;
+            font-size: 14px;
+        }
+
+        .follow-btn {
+            background-color: #00a1b7;
+            color: white;
+            border: none;
+            padding: 10px 18px;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .follow-btn:hover {
+            background-color: #00879a;
+            transform: translateY(-2px);
+        }
+
+        .follow-btn:active {
+            transform: scale(0.96);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="profile">
+
+            <img 
+            src="images/premium_photo-1667030474693-6d0632f97029.avif" 
+            class="image">
+
+            <div class="info">
+                <p class="name">Oliver</p>
+                <p class="animal-name">The Cat</p>
+                <p class="status">Popular</p>
+            </div>
+
+        </div>
+
+        <button class="follow-btn">
+            Follow
+        </button>
+
+    </div>
+
+</body>
+</html>
